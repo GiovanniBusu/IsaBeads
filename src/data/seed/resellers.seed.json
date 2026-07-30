@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Perles & Co",
+    "url": "https://www.perlesandco.com",
+    "country": "France",
+    "deliversToSwitzerland": "oui",
+    "notes": "Large gamme Miyuki Delica toutes tailles. Livraison internationale incluant la Suisse (frais de port et délais variables selon le poids, à vérifier au moment de la commande)."
+  },
+  {
+    "name": "Perline Beads",
+    "url": "https://www.perlinebeads.ch",
+    "country": "Suisse",
+    "deliversToSwitzerland": "oui",
+    "notes": "Boutique basée en Suisse. Livre exclusivement en Suisse et au Liechtenstein — pas de frais de douane, délais courts."
+  },
+  {
+    "name": "i-Perlen.ch",
+    "url": "https://www.i-perlen.ch",
+    "country": "Suisse",
+    "deliversToSwitzerland": "oui",
+    "notes": "Boutique basée en Suisse."
+  },
+  {
+    "name": "Pandahall",
+    "url": "https://fr.pandahall.com",
+    "country": "Chine",
+    "deliversToSwitzerland": "oui",
+    "notes": "Livraison en Suisse explicitement annoncée. Vente plutôt en gros (sachets ~100g) — attention aux frais de douane/TVA à l'import et aux délais plus longs."
+  },
+  {
+    "name": "Perlerie Nice",
+    "url": "https://www.perlerienice.fr",
+    "country": "France",
+    "deliversToSwitzerland": "à confirmer",
+    "notes": "Annonce une livraison \"France et étranger\" mais la desserte de la Suisse n'est pas confirmée explicitement — à vérifier avant commande (frais de port, délais, douane)."
+  }
+]
