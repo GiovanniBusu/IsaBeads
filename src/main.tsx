@@ -7,7 +7,7 @@ import { RepositoriesProvider } from './data/RepositoriesContext.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <RepositoriesProvider>
         <App />
       </RepositoriesProvider>

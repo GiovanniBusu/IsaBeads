@@ -3,8 +3,12 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
+// Servi en sous-chemin sur GitHub Pages (https://<owner>.github.io/IsaBeads/)
+const base = process.env.GITHUB_PAGES ? '/IsaBeads/' : '/'
+
 // https://vite.dev/config/
 export default defineConfig({
+  base,
   plugins: [
     react(),
     tailwindcss(),
@@ -20,8 +24,8 @@ export default defineConfig({
         background_color: '#faf5ff',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/',
-        scope: '/',
+        start_url: base,
+        scope: base,
         lang: 'fr',
         icons: [
           {
